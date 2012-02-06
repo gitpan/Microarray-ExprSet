@@ -1,0 +1,5 @@
+MANIFEST
+Makefile.PL
+lib/Microarray/ExprSet.pm
+t/00basic.t
+META.yml                                 Module meta-data (added by MakeMaker)
