@@ -4,10 +4,11 @@ WriteMakefile(
 	NAME          => 'Microarray::ExprSet',
 	VERSION_FROM  => 'lib/Microarray/ExprSet.pm',
 	PREREQ_PM     => {
-		'List::Vectorize' => "",
-		'Test::More' => "",
+		'List::Vectorize' => "1.00",
+		'Test::More' => 0,
+		'Carp' => 0,
 	},
 	AUTHOR        => 'Zuguang Gu <jokergoo@gmail.com>',
-	ABSTRACT      => 'General class of microarray data',
+	ABSTRACT      => 'Simple description of microarray data',
 	LICENSE       => 'perl',
 );
